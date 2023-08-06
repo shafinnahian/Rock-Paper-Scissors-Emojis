@@ -71,5 +71,5 @@ function playGame(playerMove){
 
     document.querySelector('.js-scores').innerHTML = result;
     // updateMoves();
-    document.querySelector('.js-moves').innerHTML = `You <img src="images/${playerMove}-emoji.png" class="move-icon"> Computer <img src="images/${compMove}-emoji.png" class="move-icon">`;
+    document.querySelector('.js-moves').innerHTML = `You <img src="../images/${playerMove}-emoji.png" class="move-icon"> Computer <img src="../images/${compMove}-emoji.png" class="move-icon">`;
 }
